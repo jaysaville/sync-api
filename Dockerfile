@@ -1,6 +1,6 @@
 FROM python:3.8.12-slim
 
-COPY api /api
+COPY fast.py /fast.py
 COPY requirements_docker.txt /requirements.txt
 
 RUN pip install --upgrade pip
